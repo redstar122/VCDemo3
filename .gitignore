@@ -1,10 +1,35 @@
-#python bytcode and cache
+# Python bytecode and cache
 __pycache__/
+*.py[cod]
 
-
-#Virtual Environment
-venv/
+# Virtual environments
 .venv/
+venv/
 
-#Database 
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local SQLite development database
 db.sqlite3
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Operating-system files
+Thumbs.db
+Thumbs.db:encryptable
+.DS_Store
+Desktop.ini
